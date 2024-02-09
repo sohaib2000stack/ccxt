@@ -1,0 +1,1 @@
+from .pricecheckerservice import ExchangePriceChecker
