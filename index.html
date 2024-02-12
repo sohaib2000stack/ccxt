@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Price Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exchange Price Checker</h1>
+        <div id="symbols">
+            <h2>All Symbols</h2>
+            <ul id="symbolList"></ul>
+        </div>
+        <div id="price">
+            <h2>Get Price</h2>
+            <form id="priceForm">
+                <label for="symbol">Enter Symbol:</label>
+                <input type="text" id="symbol" name="symbol" required>
+                <button type="submit">Get Price</button>
+            </form>
+            <div id="priceResult"></div>
+        </div>
+    </div>
+
+    <script src="frontend.js"></script>
+</body>
+</html>

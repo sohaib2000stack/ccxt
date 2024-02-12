@@ -73,6 +73,7 @@ class ExchangePriceChecker:
 
 
 
+
 # from fastapi import FastAPI, HTTPException
 # from typing import Dict, List
 # import ccxt
