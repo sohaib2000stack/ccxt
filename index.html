@@ -9,6 +9,98 @@
 <body>
     <div class="container">
         <h1>Exchange Price Checker</h1>
+        <div class="section">
+            <h2>Select Exchange</h2>
+            <select id="exchangeSelect" class="select-box">
+                <option value="binance">Binance</option>
+                <option value="bybit">Bybit</option>
+                <option value="mexc">MEXC</option>
+                <!-- Add more options for other exchanges if needed -->
+            </select>
+        </div>
+        <div class="section">
+            <h2>All Symbols</h2>
+            <ul id="symbolList" class="symbol-list"></ul>
+        </div>
+        <div class="section">
+            <h2>Get Price</h2>
+            <form id="priceForm" class="price-form">
+                <label for="symbol">Enter Symbol:</label>
+                <input type="text" id="symbol" name="symbol" class="input-text" required>
+                <button type="submit" class="button">Get Price</button>
+            </form>
+            <div id="priceResult" class="price-result"></div>
+        </div>
+    </div>
+
+    <script src="frontend.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Price Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exchange Price Checker</h1>
+        <div class="section">
+            <h2>Select Exchange</h2>
+            <select id="exchangeSelect" class="select-box">
+                <option value="binance">Binance</option>
+                <option value="bybit">Bybit</option>
+                <option value="mexc">MEXC</option>
+                <!-- Add more options for other exchanges if needed -->
+            <!-- </select>
+        </div>
+        <div class="section">
+            <h2>All Symbols</h2>
+            <ul id="symbolList" class="symbol-list"></ul>
+        </div>
+        <div class="section">
+            <h2>Get Price</h2>
+            <form id="priceForm" class="price-form">
+                <label for="symbol">Enter Symbol:</label>
+                <input type="text" id="symbol" name="symbol" class="input-text" required>
+                <button type="submit" class="button">Get Price</button>
+            </form>
+            <div id="priceResult" class="price-result"></div>
+        </div>
+    </div>
+
+    <script src="frontend.js"></script>
+</body>
+</html> --> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Price Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exchange Price Checker</h1>
+        <div id="exchange">
+            <h2>Select Exchange</h2>
+            <select id="exchangeSelect">
+                <option value="binance">Binance</option>
+                <option value="bybit">Bybit</option>
+                <option value="mexc">MEXC</option>
+                <!-- Add more options for other exchanges if needed -->
+            <!-- </select>
+        </div>
         <div id="symbols">
             <h2>All Symbols</h2>
             <ul id="symbolList"></ul>
@@ -26,4 +118,47 @@
 
     <script src="frontend.js"></script>
 </body>
-</html>
+</html> --> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Price Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exchange Price Checker</h1>
+        <div id="symbols">
+            <h2>All Symbols</h2>
+            <ul id="symbolList"></ul>
+        </div>
+        <div id="price">
+            <h2>Get Price</h2>
+            <form id="priceForm">
+                <label for="symbol">Enter Symbol:</label>
+                <input type="text" id="symbol" name="symbol" required>
+                <button type="submit">Get Price</button>
+            </form>
+            <div id="priceResult"></div>
+        </div>
+    </div>
+
+    <script src="frontend.js"></script>
+</body>
+</html> -->
